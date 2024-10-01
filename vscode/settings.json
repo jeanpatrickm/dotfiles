@@ -1,0 +1,31 @@
+{ 
+    "workbench.colorTheme": "Min Dark",
+    "symbols.hidesExplorerArrows": false,
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.rulers": [120, 180],
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.editor.labelFormat": "short",
+    "editor.renderLineHighlight": "gutter",
+    "explorer.compactFolders": false,
+    "breadcrumbs.enabled": false,
+    "editor.fontLigatures": true,
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.location": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "window.commandCenter": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.iconTheme": "symbols",
+    "window.menuBarVisibility": "hidden",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit"
+    },
+    "[prisma]":{
+        "editor.formatOnSave":true
+    },
+    "liveServer.settings.donotVerifyTags": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
