@@ -36,13 +36,14 @@ bars:
     widgets:
       left: 
       - "home"
-      - "grouped_widgets_1"
+      - "active_window"
       - "media"
       center:
-      - "grouped_widgets_2"
+      - "clock"
       right:
-      - "grouped_widgets_3"
-      - "grouped_widgets_4"
+      - "weather"
+      - "volume"
+      - "battery"
       - "notifications"
       - "power_menu"
 widgets:
@@ -451,41 +452,6 @@ widgets:
       color: "black"
       radius: 3
       offset: [ 1, 1 ]
-  grouped_widgets_1:
-    type: "yasb.grouper.GrouperWidget"
-    options:
-      class_name: "grouped-widgets"
-      widgets: [
-        "active_window",
-      ]
-  grouped_widgets_2:
-    type: "yasb.grouper.GrouperWidget"
-    options:
-      class_name: "grouped-widgets"
-      widgets: [
-        "clock",
-      ]
-  grouped_widgets_3:
-    type: "yasb.grouper.GrouperWidget"
-    options:
-      class_name: "grouped-widgets"
-      widgets: [
-        "weather",
-      ]
-  grouped_widgets_4:
-    type: "yasb.grouper.GrouperWidget"
-    options:
-      class_name: "grouped-widgets"
-      widgets: [
-        "volume",
-      ]
-  grouped_widgets_5:
-    type: "yasb.grouper.GrouperWidget"
-    options:
-      class_name: "grouped-widgets"
-      widgets: [
-        "battery",
-      ]
   notifications:
     type: "yasb.notifications.NotificationsWidget"
     options:

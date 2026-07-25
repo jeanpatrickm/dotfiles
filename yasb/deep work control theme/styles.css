@@ -174,12 +174,68 @@
     padding: 0px 2px;
 }
 
-/* ========== CONTAINERS INDIVIDUAIS COM BORDERS ========== */
-.grouped-widgets .container {
+/* ========== ESTILOS INDIVIDUAIS PARA WIDGETS COM BORDAS ========== */
+
+/* Active Window Widget */
+.active-window-widget {
     background-color: var(--base);
     margin: 4px 2px 4px 2px;
     border-radius: 12px;
     border: 1px solid var(--surface0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px;
+}
+
+/* Clock Widget */
+.clock-widget {
+    background-color: var(--base);
+    margin: 4px 2px 4px 2px;
+    border-radius: 12px;
+    border: 1px solid var(--surface0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Weather Widget */
+.weather-widget {
+    background-color: var(--base);
+    margin: 4px 2px 4px 2px;
+    border-radius: 12px;
+    border: 1px solid var(--surface0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px;
+}
+
+/* Volume Widget */
+.volume-widget {
+    background-color: var(--base);
+    margin: 4px 2px 4px 2px;
+    border-radius: 12px;
+    border: 1px solid var(--surface0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px;
+    position: relative;
+    z-index: 1;
+    overflow: visible;
+}
+
+/* Battery Widget */
+.battery-widget {
+    background-color: var(--base);
+    margin: 4px 2px 4px 2px;
+    border-radius: 12px;
+    border: 1px solid var(--surface0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8px;
 }
 
 /* Media Widget - standalone */
@@ -228,6 +284,7 @@
     align-items: center;
     justify-content: center;
 }
+
 /* Remove separadores/linhas entre widgets */
 .widget {
     border-right: none !important;
@@ -244,13 +301,6 @@
     border: none !important;
 }
 
-.volume-widget {
-    margin-right: 0 !important;
-    border-right: none !important;
-    position: relative;
-    z-index: 1;
-    overflow: visible;
-}
 /* ======================================================= */
 .komorebi-workspaces .offline-status {
     color: var(--surface2);
